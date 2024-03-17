@@ -1,0 +1,14 @@
+/***** MAX-WIDTH: 768px *****/
+@media (max-width: 768px) {
+  article {
+    margin-bottom: 2.4rem;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .team-builder-karma-box {
+    display: block;
+  }
+}
