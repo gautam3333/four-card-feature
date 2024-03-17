@@ -98,10 +98,12 @@ h3 {
 .team-builder,
 .karma,
 .calculator {
+  cursor: pointer;
   max-width: 36rem;
   padding: 2.4rem;
   border-radius: 1rem;
   box-shadow: 1px 1px 4px 2px hsla(0, 0%, 0%, 0.199);
+  transition: all 0.3s ease-in;
 }
 
 .supervisor p,
@@ -128,4 +130,11 @@ h3 {
 
 .calculator {
   border-top: 3px solid var(--blue);
+}
+
+.supervisor:hover,
+.team-builder:hover,
+.karma:hover,
+.calculator:hover {
+  transform: scale(1.04);
 }
